@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\s21380034\source\repos\mp2-lab1-set\src\tbitfield.cpp">
+    <ClCompile Include="C:\Users\igovenv\source\repos\mp2-lab1-set\src\tbitfield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\s21380034\source\repos\mp2-lab1-set\src\tset.cpp">
+    <ClCompile Include="C:\Users\igovenv\source\repos\mp2-lab1-set\src\tset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\s21380034\source\repos\mp2-lab1-set\include\tbitfield.h">
+    <ClInclude Include="C:\Users\igovenv\source\repos\mp2-lab1-set\include\tbitfield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\s21380034\source\repos\mp2-lab1-set\include\tset.h">
+    <ClInclude Include="C:\Users\igovenv\source\repos\mp2-lab1-set\include\tset.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\s21380034\source\repos\mp2-lab1-set\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\igovenv\source\repos\mp2-lab1-set\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{E4F25675-2982-3E0A-A0D7-5E2F1BD8069C}</UniqueIdentifier>
+      <UniqueIdentifier>{533EA187-D1D2-31AB-BD2F-C793B0A098E2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3D6FFEAC-8DF6-38ED-84BE-3D771060B468}</UniqueIdentifier>
+      <UniqueIdentifier>{2DE598A6-E9B7-3451-A0D4-30406223E332}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
