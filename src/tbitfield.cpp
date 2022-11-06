@@ -137,11 +137,8 @@ TBitField TBitField::operator|(const TBitField &bf) // операция "или"
 TBitField TBitField::operator&(const TBitField &bf) // операция "и"
 {
     TBitField res(max(bf.BitLen, BitLen));
-    for (int i = 0; i < MemLen; i++) {
-        res.pMem[i] = pMem[i];
-    }
-    for (int i = 0; i < bf.MemLen; i++) {
-        res.pMem[i] &= bf.pMem[i];
+    for (int i = 0; i < min(bf.MemLen, MemLen); i++) {
+        res.pMem[i] = pMem[i] & bf.pMem[i];
     }
     return res;
 }
